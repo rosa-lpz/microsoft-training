@@ -59,4 +59,55 @@ AI can inadvertently reproduce historical biases present in data. For example, a
 Some applications carry heightened risks to rights and freedoms, such as facial recognition or automated decision making in law enforcement, hiring, or credit. Even when the technology is capable, the responsible path might be to set strict limits, add human oversight, or pause the use case until risks are manageable. Laws and standards continue to evolve, but responsibility starts with your own policies, governance, and ethical judgment.
 * Note: Microsoft continually updates its principles and practices for sensitive technologies and encourages cross sector collaboration to set appropriate boundaries
 
-## Identify guiding principles for responsible AI
+## [Identify guiding principles for responsible AI](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/3-identify-guiding-principles-responsible-ai)
+
+Now we turn to a practical compass: six principles that should guide every AI decision. These principles help you balance speed with trust, turning ethical intent into operational practice across development, deployment, and day to day use.
+
+At Microsoft, we use these principles as the foundation of our approach to trustworthy AI:
+
+* Fairness: Treat similar people and cases similarly by design, and test to reduce bias.
+* Reliability and safety: Build systems that perform consistently and fail safely, even in unexpected conditions.
+* Privacy and security: Protect data throughout its lifecycle and design with least privilege and purpose limitation.
+* Inclusiveness: Design for diverse needs and test with a broad set of users to avoid exclusion.
+* Transparency: Make systems intelligible: explain how they work, what they use, and where they might fall short.
+* Accountability: Assign clear ownership, review decisions, and create paths for remediation when things go wrong.
+
+These principles aren't just aspirational—they're the guardrails that turn AI from a technical capability into a trusted, scalable business asset. In the next section, we’ll translate them into concrete practices and controls you can embed across your organization.
+
+### Fairness
+AI systems should treat everyone fairly and avoid affecting similarly situated groups of people in different ways. For example, when AI systems provide guidance on medical treatment, loan applications, or employment, they should make the same recommendations to everyone with similar symptoms, financial circumstances, or professional qualifications.
+
+To ensure fairness in your AI system, you should:
+
+*  **Understand the scope, spirit, and potential uses of the AI system** by asking questions such as, how is the system intended to work? Who is the system designed to work for? Will the system work for everyone equally? How can it harm others?
+* **Attract a diverse pool of talent**. Ensure the design team reflects the world in which we live by including team members that have different backgrounds, experiences, education, and perspectives.
+* **Identify bias in datasets** by evaluating where the data came from, understanding how it was organized, and testing to ensure it's represented. Bias can be introduced at every stage in creation, from collection to modeling to operation. The Responsible AI Dashboard, available at the Resources section, includes a feature to help with this task.
+* **Identify bias in machine learning algorithms** by applying tools and techniques that improve the transparency and intelligibility of models. Users should actively identify and remove bias in machine learning algorithms.
+* **Use human review and domain expertise**. Train employees to understand the meaning and implications of AI results, especially when AI is used to inform consequential decisions about people. Decisions that use AI should always be paired with human review. Include relevant subject matter experts in the design process and in deployment decisions. An example would be including a consumer credit subject matter expert for a credit scoring AI system. You should use AI as a copilot, that is, an assisting tool that helps you do your job better and faster but requires some degree of supervising.
+* **Research and employ best practices, analytical techniques, and tools** from other institutions and enterprises to help detect, prevent, and address bias in AI systems.
+
+### Reliability and safety
+To build trust, AI systems must operate reliably, safely, and consistently in both expected and unexpected conditions. They should perform as designed, respond safely to unforeseen situations, and resist harmful manipulation. It’s also essential to verify that systems behave as intended under real-world conditions. Their ability to handle diverse scenarios depends on what developers anticipate during design and testing.
+
+To ensure reliability and safety in your AI system, you should:
+
+* Develop processes for auditing AI systems to evaluate the quality and suitability of data and models, monitor ongoing performance, and verify that systems are behaving as intended based on established performance measures.
+* Provide detailed explanation of system operation including design specifications, information about training data, training failures that occurred and potential inadequacies with training data, and the inferences and significant predictions generated.
+* Design for unintended circumstances such as accidental system interactions, the introduction of malicious data, or cyberattacks.
+* Involve domain experts in the design and implementation processes, especially when using AI to help make consequential decisions about people.
+* Conduct rigorous testing during AI system development and deployment to ensure that systems can respond safely to unanticipated circumstances, don’t have unexpected performance failures, and don’t evolve in unexpected ways. AI systems involved in high-stakes scenarios that affect human safety or large populations should be tested both in lab and real-world scenarios.
+* Evaluate when and how an AI system should seek human input for impactful decisions or during critical situations. Consider how an AI system should transfer control to a human in a manner that's meaningful and intelligible. Design AI systems to ensure humans have the necessary level of input on highly impactful decisions.
+* Develop a robust feedback mechanism for users to report performance issues so that you can resolve them quickly.
+
+### Privacy and security
+As AI becomes more prevalent, protecting privacy and securing important personal and business information is becoming more critical and complex. With AI, privacy and data security issues require especially close attention because access to data is essential for AI systems to make accurate and informed predictions and decisions about people.
+
+To ensure privacy and security in your AI system, you should:
+
+* Comply with relevant data protection, privacy, and transparency laws by investing resources in developing compliance technologies and processes or working with a technology leader during the development of AI systems. Develop processes to continually check that the AI systems are satisfying all aspects of these laws.
+* Design AI systems to maintain the integrity of personal data so that they can only use personal data during the time it’s required, and for defined customer purposes. Delete inadvertently collected personal data or data that is no longer relevant to the defined purpose.
+* Protect AI systems from bad actors by designing AI systems in accordance with secure development and operations foundations, using role-based access, and protecting personal and confidential data that is transferred to third parties. Design AI systems to identify abnormal behaviors and to prevent manipulation and malicious attacks.
+* Design AI systems with appropriate controls for customers to make choices about how and why their data is collected and used.
+* Ensure your AI system maintains anonymity by taking into account how the system removes personal identification from data.
+* Conduct privacy and security reviews for all AI systems.
+* Research and implement industry best practices for tracking relevant information about customer data, accessing and using that data, and auditing access and use.
