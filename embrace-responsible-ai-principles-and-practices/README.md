@@ -161,8 +161,37 @@ These principles provide a general idea of what we should do when developing and
 
 # Design a system for AI governance
 
+Principles are important, but they only work when they’re put into practice. Your organization needs a governance system that translates values into repeatable decisions, controls, and accountability across the AI lifecycle.
+
+Build a model that fits your culture, risk profile, and level of AI engagement. A hybrid approach—combining centralized authority with decentralized execution—often works best. 
+
+* That means a central office or leader to set policy and standards, plus local teams to operationalize them in business units and product groups. Governance should report to the board, have dedicated funding and staffing, and carry clear authority to make and enforce decisions.
+
+To help your organization get started, we provided an overview of three common governance approaches: hiring a Chief Ethics Officer, establishing an ethics office, and forming an ethics committee. The first approach is centralized, and the others are decentralized. All of them have their benefits, but we recommend combining them in a hybrid approach. A governance system that reports to the board of directors and has financial support, human resources, and authority is more likely to create real change across an organization.
+
+## Chief Ethics Officer
+
+Often, organizations consolidate their ethics initiatives by appointing a Chief Ethics Officer. This role provides centralized decision making, enabling the company to develop ethics policies quickly while ensuring accountability for each decision. A public facing Chief Ethics Officer can also signal a strong commitment to responsible, trustworthy use of AI and other technologies.
+
+However, a Chief Ethics Officer alone might struggle to implement measures across the organization without the support of an ethics office—hence the value of adding a dedicated team to operationalize policy and training.
+
+## Ethics office
+
+The second governance approach empowers employees across the organization by establishing a dedicated ethics office. This team—drawn from multiple levels and functions—focuses on making sure ethical principles are put into practice day to day. An ethics office can sit independently or within risk, compliance, or legal; many companies pair it with a Chief Ethics Officer to provide visible leadership.
+
+The key advantage is scale: with dedicated staff embedded across the business, an ethics office can roll out policies, training, and reviews consistently. It also helps build a culture of integrity by turning principles into practical guidance and by being a go to resource for teams facing ethical questions.
+
+## 
+
+## Ethics committee
+
+The third approach convenes a diverse ethics committee—senior leaders and external experts (such as ethicists, user advocates, or psychologists)—to advise on AI risks and decisions. Members typically serve part time, bringing varied perspectives rather than acting as full time ethics staff.
+
+This model delivers broad, unbiased insight and helps secure buy in at the top of the organization. It’s especially useful for reviewing complex or sensitive use cases, challenging assumptions, and ensuring that decisions reflect both business priorities and societal expectations.
+
 # References
 
 * Microsoft Learn - [Embrace responsible AI principles and practices](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/)
   * [Identify guiding principles for responsible AI](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/3-identify-guiding-principles-responsible-ai)
+  * [Design a system for AI governance](https://learn.microsoft.com/en-us/training/modules/embrace-responsible-ai-principles-practices/4-design-system-ai-governance)
 
