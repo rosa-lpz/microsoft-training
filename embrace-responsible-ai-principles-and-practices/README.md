@@ -20,7 +20,7 @@ In this module, you will:
 * [Design a system for AI governance](#design-a-system-for-ai-governance)
 * [Apply systems for AI governance](#apply-systems-for-ai-governance)
 
-## Introduction
+# Introduction
 AI is transforming industries and redefining how organizations operate—but with opportunity comes responsibility. As AI becomes embedded in products, services, and decision-making, leaders must anticipate its societal implications and mitigate unintended consequences. Whether you build AI solutions internally or adopt them from external providers, creating clear policies and governance practices is essential for trust and long-term success.
 
 At Microsoft, we believe responsible AI is a journey that evolves with innovation and lessons learned. The processes, tools, and resources in this module offer a starting point for shaping your own strategy—one that reflects your organization’s values and risk profile.
@@ -29,12 +29,12 @@ Responsible AI isn’t just a technical challenge; it’s a shared responsibilit
 
 Now, explore the transformative potential of AI, its societal implications, and the importance of approaching it responsibly.
 
-## Prepare for responsible AI
+# Prepare for responsible AI
 AI is the defining technology of our time. It's already enabling faster and more profound progress in nearly every field of human endeavor and helping to address some of society’s most daunting challenges. For example, AI can help people with visual disabilities understand images by generating descriptive text for images. In another example, AI can help farmers produce enough food for the growing global population.
 
 At Microsoft, we believe that the computational intelligence of AI should be used to amplify the innate creativity and ingenuity of humans. Our vision for AI is to empower every developer to innovate, empower organizations to transform industries, and empower people to transform society.
 
-### Societal implications of AI
+## Societal implications of AI
 AI’s reach extends far beyond code—it touches how we work, decide, and live. As leaders, you’re not just deploying technology; you’re shaping outcomes that affect people and communities. That means asking the hard questions up front:
 
 * How do we design, build, and use AI that benefits individuals and society? Aim for systems that improve access, fairness, and opportunity—while minimizing harm.
@@ -43,25 +43,25 @@ AI’s reach extends far beyond code—it touches how we work, decide, and live.
 
 Thinking through these questions early helps you avoid costly missteps, build trust with customers and employees, and create durable value as AI scales.
 
-### The importance of a responsible approach to AI
+## The importance of a responsible approach to AI
 It's important to recognize that as new intelligent technology emerges and proliferates throughout society, with its benefits come unintended and unforeseen consequences. Some of these consequences have significant ethical ramifications and the potential to cause serious harm. While organizations can't predict the future yet, it's our responsibility to make a concerted effort to anticipate and mitigate the unintended consequences of the technology we release into the world through deliberate planning and continual oversight.
 
-#### Novel threats
+### Novel threats
 Every technological leap reminds us that responsibility must keep pace with capability. In 2016, Microsoft launched a chatbot called Tay on X to learn from public conversations. Within 24 hours, it began echoing hateful content—an early lesson in how human behavior can exploit machine learning. That experience reinforced the need to anticipate misuse and design safeguards from day one.
 
 Today’s generative AI introduces new challenges: convincingly realistic images, audio, and video make it harder to verify what’s real. To address this challenge, Microsoft collaborates with news organizations and technology partners to develop standards against deepfake manipulation. We built advanced content filters and supervisory controls into services like Azure AI and Microsoft Copilot to reduce harmful outputs and protect training data integrity.
 * Tip: Defenses must evolve as threats do. Expect to iterate on filters, monitoring, and governance as your AI footprint grows.
 
-#### Biased and unfair outcomes
+### Biased and unfair outcomes
 AI can inadvertently reproduce historical biases present in data. For example, a lending model trained on past decisions might favor one group over another. Rigorous validation and auditing before deployment help catch these issues early. Microsoft’s research and tools support bias detection and mitigation, but even prebuilt models require careful use and oversight.
 * Tip: Treat bias checks as a continuous process—not a one time checkbox.
 * Note: At Microsoft, our researchers are exploring tools and techniques for detecting and reducing bias within AI systems. Prebuilt models are validated thoroughly, but nonetheless should be used wisely and their results should be always audited before taking action.
 
-#### Sensitive use cases
+### Sensitive use cases
 Some applications carry heightened risks to rights and freedoms, such as facial recognition or automated decision making in law enforcement, hiring, or credit. Even when the technology is capable, the responsible path might be to set strict limits, add human oversight, or pause the use case until risks are manageable. Laws and standards continue to evolve, but responsibility starts with your own policies, governance, and ethical judgment.
 * Note: Microsoft continually updates its principles and practices for sensitive technologies and encourages cross sector collaboration to set appropriate boundaries
 
-## Identify guiding principles for responsible AI
+# Identify guiding principles for responsible AI
 
 Now we turn to a practical compass: six principles that should guide every AI decision. These principles help you balance speed with trust, turning ethical intent into operational practice across development, deployment, and day to day use.
 
@@ -76,7 +76,7 @@ At Microsoft, we use these principles as the foundation of our approach to trust
 
 These principles aren't just aspirational—they're the guardrails that turn AI from a technical capability into a trusted, scalable business asset. In the next section, we’ll translate them into concrete practices and controls you can embed across your organization.
 
-### Fairness
+## Fairness
 AI systems should treat everyone fairly and avoid affecting similarly situated groups of people in different ways. For example, when AI systems provide guidance on medical treatment, loan applications, or employment, they should make the same recommendations to everyone with similar symptoms, financial circumstances, or professional qualifications.
 
 To ensure fairness in your AI system, you should:
@@ -88,7 +88,7 @@ To ensure fairness in your AI system, you should:
 * **Use human review and domain expertise**. Train employees to understand the meaning and implications of AI results, especially when AI is used to inform consequential decisions about people. Decisions that use AI should always be paired with human review. Include relevant subject matter experts in the design process and in deployment decisions. An example would be including a consumer credit subject matter expert for a credit scoring AI system. You should use AI as a copilot, that is, an assisting tool that helps you do your job better and faster but requires some degree of supervising.
 * **Research and employ best practices, analytical techniques, and tools** from other institutions and enterprises to help detect, prevent, and address bias in AI systems.
 
-### Reliability and safety
+## Reliability and safety
 To build trust, AI systems must operate reliably, safely, and consistently in both expected and unexpected conditions. They should perform as designed, respond safely to unforeseen situations, and resist harmful manipulation. It’s also essential to verify that systems behave as intended under real-world conditions. Their ability to handle diverse scenarios depends on what developers anticipate during design and testing.
 
 To ensure reliability and safety in your AI system, you should:
@@ -101,7 +101,7 @@ To ensure reliability and safety in your AI system, you should:
 * **Evaluate when and how an AI system should seek human input** for impactful decisions or during critical situations. Consider how an AI system should transfer control to a human in a manner that's meaningful and intelligible. Design AI systems to ensure humans have the necessary level of input on highly impactful decisions.
 * **Develop a robust feedback** mechanism for users to report performance issues so that you can resolve them quickly.
 
-### Privacy and security
+## Privacy and security
 As AI becomes more prevalent, protecting privacy and securing important personal and business information is becoming more critical and complex. With AI, privacy and data security issues require especially close attention because access to data is essential for AI systems to make accurate and informed predictions and decisions about people.
 
 To ensure privacy and security in your AI system, you should:
@@ -158,7 +158,7 @@ To ensure accountability in your AI system, you should:
 
 We recognize that every individual, company, and region has their own beliefs and standards that should be reflected in their AI journey. We share our perspective with you as you consider developing your own guiding principles.
 
-These principles provide a general idea of what we should do when developing and using AI. However, they need to be reflected on a more practical level. Next, let's explore how these principles can be ensured with an AI governance system.
+These principles provide a general idea of what we should do when developing and using AI. However, they need to be reflected on a more practical level. 
 
 # Design a system for AI governance
 
@@ -327,6 +327,64 @@ We expect every Microsoft employee to:
 - Develop a general understanding of our AI principles.
 - Report and escalate sensitive uses.
 - Contact their Responsible AI Champ when they need guidance on responsible AI.
+
+
+
+# Put responsible AI frameworks in action
+
+Microsoft developed and refined an internal process for governing AI responsibly. The following is a practical example of how that system works in the real world. Every organization shapes its own frameworks and review processes, but our **sensitive use** approach can serve as a useful starting point.
+
+One early step in Microsoft’s governance journey was a **sensitive uses review trigger**—a simple way to surface cases that need extra scrutiny. The trigger helps both internal teams and customer‑facing staff identify when a use case might require more guidance, escalation, or controls before proceeding.
+
+## Microsoft sensitive use case framework
+
+Per our responsible AI governance documentation, we consider an AI development or deployment scenario a "sensitive use" if it falls into one or more of the following categories:
+
+- **Denial of consequential services**: The scenario involves the use of AI in a way that might directly result in the denial of consequential services or support to an individual (such as financial, housing, insurance, education, employment, or healthcare services).
+- **Risk of harm**: The scenario involves the use of AI in a way that might create a significant risk of physical, emotional, or psychological harm to an individual (such as life or death decisions in military, safety-critical manufacturing environments, healthcare contexts, or almost any scenario involving children or other vulnerable people).
+- **Infringement on human rights**: The scenario involves the use of AI in a way that might result in a significant restriction of personal freedom, opinion or expression, assembly or association, privacy, and so on (such as in law enforcement or policing).
+
+We train our employees to use this framework to determine whether an AI use case should be flagged for further review—whether they’re a seller working with a customer or someone working on an internal AI solution. We also train our Responsible AI Champs for their role as liaison between employees and central governance teams.
+
+## Microsoft sensitive use case review process
+
+The review process for sensitive use cases has three stages: identification, assessment, and mitigation. To better illustrate this process, a real-world case study joins the explanation of each step. In this case study, a customer came to us for a face recognition system.
+
+### Identification
+
+If an employee identifies that a use case falls into one of the three categories (denial of consequential services, risk of harm, or infringement of human rights), they report it. Reporting is done via a central submission tool and then routed to their local Responsible AI Champ, an individual who is responsible for driving awareness and understanding of the company's responsible AI policies, standards, and guidance.
+
+In this case, a law enforcement agency approached us to develop a facial recognition system to augment existing identity verification methods. The scenarios included using facial recognition to check drivers’ identities during traffic stops, to speed up the check-in process in prisons, and to verify prisoners’ identities while moving through the facility. An employee submitted these three use-cases through the central intake tool for responsible AI review.
+
+### Assessment
+
+The Responsible AI Champ, working with the Office of Responsible AI and the Microsoft team involved in the use case, investigates the case to gather the relevant facts, follows a guided process to assess the effect of the proposed system on individuals and society, and reviews past cases to determine if guidance already exists for a similar scenario. If earlier guidance doesn't exist, or if the case requires more expertise and evaluation, the Responsible AI Champ presents the case to the Sensitive Uses Working Group of the Aether Committee.
+
+In this face recognition case, the Responsible AI Champ worked closely with the Office of Responsible AI, the account teams, and the customers to assess the risks. It was decided that all three cases needed to be escalated to the Aether Sensitive Uses Working Group for further input, as they touched on one or more of the sensitive uses of AI.
+
+### Mitigation
+
+The Sensitive Uses Working Group deliberates with a diverse group of experts to provide insight and recommendations for how to address the risks associated with the particular use case. If the situation requires further escalation, cases can rise up to the Aether Committee itself, which directly advises the Responsible AI Council. Ultimately, the Responsible AI Council makes decisions on novel, high-impact cases.
+
+ *Tip*
+
+* *When reviewing sensitive use cases, we recommend bringing together a diverse group of people with varied backgrounds and expertise. It's also important to create an inclusive space where everyone feels comfortable sharing their ideas and perspectives.*
+
+Once the case is reviewed, the Responsible AI Champ works with the Office of Responsible AI to provide advice to the project team on mitigation strategies that align to our responsible AI practices and principles. These mitigation strategies could include technical approaches, employee training and governance approaches, or alterations to the scope of the project. At times, our teams were advised to not proceed with certain projects because we were unable to deliver them in a way that upholds our principles.
+
+In the use case, the Aether Sensitive Uses Working Group took separate decisions for each of the scenarios. After careful consideration, they determined that we wouldn't support the patrolling scenario to identify "persons of interest," during traffic stops. As the state of the technology and the broader ecosystem weren't sufficiently mature enough to mitigate the harmful consequences for when the technology performs imperfectly, the Aether working group considered this scenario a premature use case.
+
+We explained the issues to the customer, and they decided not to pursue that scenario.
+
+ *Note*
+
+* ***Backed by research**: attempting to identify individuals in uncontrolled environments can infringe on human rights, resulting in improper arrests due to misidentification. Studies have shown that AI is more likely to mistake the identities of women and minorities, which could also lead to those populations being disproportionately detained.1*
+
+For the in-facility use cases, we decided we could support the design and development of a proof of concept (POC), with safeguards in place to ensure appropriate human control over the solution, and a bi-directional feedback loop between the customer and Microsoft could be established. It was also important that the customer implemented a training program for personnel interacting with the solutions, and that the customer would reengage with Microsoft on deployments beyond these supported scenarios.
+
+## The evolution of responsible AI governance
+
+Now that you explored our process in action, there’s an important point we’d like to reiterate—we are at the beginning of developing AI governance. The processes around AI are evolving rapidly. Going forward, we plan to refine our governance policies as we invest further in AI, and we recommend other businesses do the same. Every organization needs to customize its review process based on its own AI needs and maturity, but hopefully our process can serve as a helpful starting point.
 
 # References
 
