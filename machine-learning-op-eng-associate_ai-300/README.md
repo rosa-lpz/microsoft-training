@@ -162,3 +162,7 @@
 
 * [Microsoft Certified: Machine Learning Operations Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/operationalizing-machine-learning-and-generative-ai-solutions/?practice-assessment-type=certification)
 * [Study guide for Exam AI-300: Operationalizing Machine Learning and Generative AI Solutions](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-300)
+
+## Videos
+
+* Microsoft - [Course Preview | AI-300 | Operationalize machine learning and generative AI solutions](https://www.youtube.com/watch?v=sKQyNkaOF24)
