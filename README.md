@@ -7,7 +7,8 @@
 
 ## Certifications
 
-* [Power BI Data Analyst Associate PL-300](power-bi-data-analys-associate_pl-300/)
+* [Power BI Data Analyst Associate - PL-300](power-bi-data-analys-associate_pl-300/)
+* [Machine Learning Operations Engineer Associate - AI-300](machine-learning-op-eng-associate_ai-300)
 
 
 
