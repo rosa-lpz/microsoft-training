@@ -1,9 +1,13 @@
 # Microsoft Training
-Repository for courses and certifications
+## Courses
 
 * [Embrace responsible AI principles and practices](embrace-responsible-ai-principles-and-practices/README.md)
 
 
+
+## Certifications
+
+* [Power BI Data Analyst Associate PL-300](power-bi-data-analys-associate_pl-300/)
 
 
 
